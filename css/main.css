@@ -1,0 +1,63 @@
+body{
+     background: linear-gradient(50deg,#004,#00afff,#004)
+     background-repeat:no-repeat;
+     height: 60px;
+     width:100%;
+     background-color: #7ac489
+ }
+ .Battery{
+    width:190px;
+    background-color: white; 
+    height:80px;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    position: absolute;
+    top:30%;
+    left:30%;
+    padding: 4px 8px;
+    box-shadow: 4px 4px 5px #00afff
+                -4px -5px 5px #00afdd;
+}
+.loader {
+  width: 50px;
+  height: 70px;
+  background-color: wheat;
+  border-left:1px solid #00ff00;
+  border-radius: 8px: 
+  left: 1px;
+  animation: charging 1s infinite;
+  animation-iteration-count: alternate;
+  text-align: center;
+  animation-timing-function: 
+  cubic:bezier;(1,1,1,1);
+ position: absolute;
+}
+    
+@keyframes charging{
+     0%{
+     width: 20px;
+     height: 30px;
+   }
+   100%{
+     width: 199px;
+   }
+  }
+.front{
+     width: 10px;
+     height: 30px;
+     border: 2px solid white;
+     border-radius: 5px;
+     position: absolute;
+     top:29px;
+     left: 205px;
+     
+}
+.text{
+  color: black;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 20px;
+  text-shadow: 3px 3px 5px #ddd;
+
+}
